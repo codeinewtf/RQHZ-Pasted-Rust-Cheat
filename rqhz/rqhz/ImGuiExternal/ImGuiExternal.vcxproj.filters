@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{8dfa92fc-a7ee-4409-a788-dafc31b89114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat">
+      <UniqueIdentifier>{19adc99b-3d08-4fc1-8d33-433fbcf253d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Config">
+      <UniqueIdentifier>{1b9f79f1-e9ef-495d-b52b-69bfdac343b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Memory">
+      <UniqueIdentifier>{ba5c9521-9508-4499-bebc-5427c8079044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Memory\Driver">
+      <UniqueIdentifier>{20ef4462-1a84-42d3-9da0-435c7564f35a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Custom Draw">
+      <UniqueIdentifier>{1ba368ef-128a-4174-9d87-dbb8f4d417bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Core">
+      <UniqueIdentifier>{a2fbde38-c823-4bae-84e2-819db9426d55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Core\SDK">
+      <UniqueIdentifier>{ac33846a-5fc4-4565-a909-2b1b14a2cdf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Core\Math">
+      <UniqueIdentifier>{5e649e57-9ac4-4a92-9823-891f6a155a62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Core\Cache">
+      <UniqueIdentifier>{190df5c4-a3ab-4922-96d0-5b7b50e44bb0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Directories\ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Directories\ImGui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Directories\ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Directories\ImGui\imgui_impl_dx9.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Directories\ImGui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Directories\ImGui\imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Directories\ImGui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Cheat\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui.cpp">
+      <Filter>Source Files\Custom Draw</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Directories\ImGui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Directories\ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Directories\ImGui\imgui_impl_dx9.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Directories\ImGui\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Directories\ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Directories\ImGui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Directories\ImGui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Directories\ImGui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.hpp">
+      <Filter>Cheat\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Archivex.hpp">
+      <Filter>Cheat\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.hpp">
+      <Filter>Cheat\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="XorStr.hpp">
+      <Filter>Cheat\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.hpp">
+      <Filter>Cheat\Memory\Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.hpp">
+      <Filter>Cheat\Memory\Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="function.hpp">
+      <Filter>Cheat\Memory\Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui.hpp">
+      <Filter>Source Files\Custom Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Baseplayer.hpp">
+      <Filter>Cheat\Core\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.hpp">
+      <Filter>Cheat\Core\Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="Imports.hpp">
+      <Filter>Cheat\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.hpp">
+      <Filter>Cheat\Core\Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="Tod_Sky.hpp">
+      <Filter>Cheat\Core\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.hpp">
+      <Filter>Cheat\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Assembly.hpp">
+      <Filter>Cheat\Core\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.hpp">
+      <Filter>Cheat\Core\SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
